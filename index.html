@@ -4,37 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   
   <title>Monkey cookies</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
-  <header>
-    <img class="tamaño-logo" src="./imagenes/Crazy.monkey.jpeg" alt="Crazy monkey">
-    <h1 id="inicio">CRAZY MONKEY</h1>
-    <nav>
-      <ul>
-        <li><a href="#nos">Nosotros</a></li>
-        <li><a href="#prod">Productos</a></li>
-        <li><a href="#contact">Contacto</a></li>
-        <li><a href="#galeria">Galeria</a></li>
-        <li><a href="#referencia">Referencias</a></li>
-      </ul>
-    </nav>
-  </header>
+<body class="container-fluid">
+<header>
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="bg-dark p-4 container-fluid">
+      <h5 class="text-body-emphasis h4">"Donde la dulzura se convierte en felicidad con cada bocado."</h5>
+      <span class="text-body-secondary"><a href="#nos">Nosotros</a></span>
+      <span class="text-body-secondary"><a href="#prod">Productos</a></span>
+      <span class="text-body-secondary"><a href="#contact">Contacto</a></span>
+      <span class="text-body-secondary"><a href="#galeria">Galeria</a></span>
+      <span class="text-body-secondary"><a href="#referencia">Referencias</a></span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img class="tamaño-logo" src="./imagenes/Crazy.monkey.jpeg" alt="Crazy monkey">
+      <h1 id="inicio">CRAZY MONKEY</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+</header>
 
-  <main class="container-fluid">
+  <main>
 
     <div>
       <h2 id="nos">Nosotros</h2>
-      <p>Érase una vez, en el vibrante corazón de Barcelona, una pequeña tienda que se convirtió en el paraíso de los amantes de las galletas. Esta tienda mágica, conocida como Monkey Cookies, nació con la misión de llevar felicidad a todas las edades a través de una sencilla pero poderosa creación: las cookies. Desde el primer día, nos propusimos hacer algo más que simples galletas. Queríamos crear momentos, recuerdos y sonrisas que se quedaran en el corazón de todos nuestros visitantes.
+      <p class="fondo-txt">Érase una vez, en el vibrante corazón de Barcelona, una pequeña tienda que se convirtió en el paraíso de los amantes de las galletas. Esta tienda mágica, conocida como Monkey Cookies, nació con la misión de llevar felicidad a todas las edades a través de una sencilla pero poderosa creación: las cookies. Desde el primer día, nos propusimos hacer algo más que simples galletas. Queríamos crear momentos, recuerdos y sonrisas que se quedaran en el corazón de todos nuestros visitantes.
 
       En Monkey Cookies, creemos que cada galleta cuenta una historia. Por eso, seleccionamos con mucho cariño los ingredientes más frescos y de la más alta calidad. La harina, la mantequilla, el azúcar y el chocolate que utilizamos no son solo ingredientes; son los protagonistas de una obra que se representa cada día en nuestro pequeño pero acogedor local. Cada cookie es una pieza de arte, cuidadosamente elaborada para ofrecer una experiencia inigualable. Desde las clásicas cookies de chispas de chocolate hasta las más innovadoras y deliciosamente rellenas, cada bocado es una aventura.
       
@@ -55,27 +65,42 @@
       Así que, la próxima vez que estés en Barcelona, no dudes en venir a visitarnos. Deja que el aroma te guíe hasta nuestra puerta, y prepárate para ser recibido con una cálida sonrisa y, por supuesto, con una deliciosa cookie. En Monkey Cookies, siempre hay un lugar para ti y para tu amor por las galletas. ¡Te esperamos con los brazos abiertos y el horno encendido!</p>
       <a href="#inicio">Volver al inicio</a>
     </div>
-    
-    <div>
+   <div class="container-fluid"> 
+    <div class="row">
       <h2 id="prod">Productos</h2>
-      <h3>Cookie clásica</h3>
-      <img class="tamaño-img" src="./imagenes/Cookie.classic.jpg" alt="Cookie clásica">
-      <p>En el corazón de Monkey Cookies, había una galleta clásica de chispas de chocolate que encantaba a todos. Hecha con la más fina harina, la mantequilla más cremosa y trozos generosos de chocolate puro, cada bocado era un viaje al paraíso. Esta deliciosa galleta, crujiente por fuera y suave por dentro, costaba solo 1 euro con 50 céntimos. Los clientes de todas las edades venían a nuestro acogedor local en Barcelona, donde el aroma dulce los recibía, ansiosos por retirar su galleta favorita. Cada visita era una oportunidad de disfrutar la calidad y el cariño puestos en cada cookie. ¡Te esperamos en Monkey Cookies!</p>
-      <h3>Cookie brownie</h3>
-      <img class="tamaño-img" src="./imagenes/cookie.brownie.png" alt="Cookie brownie">
-      <p>En el mundo de Monkey Cookies, existía una irresistible cookie de brownie que deleitaba a todos. Elaborada con el cacao más puro, la mantequilla más rica y un toque de vainilla, cada mordisco era una explosión de sabor. Esta exquisita cookie, suave y densa, tenía un precio de solo 1 euro con 50 céntimos. Los amantes de las galletas acudían a nuestro encantador local en Barcelona, atraídos por el tentador aroma que emanaba del horno, deseosos de llevarse su dulce preferido. Cada visita era una celebración de la calidad y el esmero puestos en cada creación. ¡Te esperamos en Monkey Cookies!</p>
-      <h3>Cookie limon</h3>
-      <img class="tamaño-img" src="./imagenes/Cookie.limon.png" alt="Cookie limon">
-      <p>En Monkey Cookies, una especialidad que brilla con luz propia es nuestra cookie de limón. Hecha con limón fresco rallado, mantequilla de la más alta calidad y un toque de azúcar, cada mordisco ofrece una combinación perfecta de dulzura y acidez. Esta deliciosa galleta, que solo cuesta 1 euro con 50 céntimos, es una explosión de frescura. Los amantes de los sabores cítricos se acercan a nuestro acogedor local en Barcelona, guiados por el refrescante aroma, deseosos de retirar su galleta preferida. Cada visita destaca nuestro compromiso con la calidad y la dedicación en cada creación. ¡Te esperamos en Monkey Cookies!</p>
-      <h3>Cookie dulce de leche</h3>
-      <img class="tamaño-img" src="./imagenes/cookie.rellena.png" alt="Cookie rellena ddl">
-      <p>En Monkey Cookies, hay una delicia que conquista corazones: nuestra cookie rellena de dulce de leche. Hecha con una masa suave y dorada, y rellena con el más cremoso y auténtico dulce de leche, cada mordisco es una experiencia indulgente. Esta exquisita galleta, con un precio de 2 euros, es el placer perfecto para cualquier momento. Los clientes se acercan a nuestro cálido local en Barcelona, atraídos por el dulce aroma del caramelo, ansiosos por retirar su galleta favorita. Cada visita celebra nuestra dedicación a la calidad y al esmero en cada creación. ¡Te esperamos en Monkey Cookies!</p>
-      <h3>Cookie avellanas</h3>
-      <img class="tamaño-img" src="./imagenes/Cookie.avellana.png" alt="Cookie avellana">
-      <p>En Monkey Cookies, una de nuestras joyas es la cookie de avellanas, que encanta a todos con su sabor único. Hecha con las avellanas más frescas y trozos de chocolate oscuro, cada bocado ofrece una deliciosa combinación de crujiente y suave. Esta irresistible galleta, que cuesta solo 1 euro con 50 céntimos, es perfecta para cualquier ocasión. Los clientes acuden a nuestro acogedor local en Barcelona, guiados por el aroma tostado de las avellanas, ansiosos por retirar su galleta favorita. Cada visita refleja nuestra pasión por la calidad y el esmero en cada creación. ¡Te esperamos en Monkey Cookies!</p>
+      <div class="col-md-4">
+        <h3>Cookie clásica</h3>
+        <img class="tamaño-img" src="./imagenes/Cookie.classic.jpg" alt="Cookie clásica">
+        <p>En el corazón de Monkey Cookies, había una galleta clásica de chispas de chocolate que encantaba a todos. Hecha con la más fina harina, la mantequilla más cremosa y trozos generosos de chocolate puro, cada bocado era un viaje al paraíso. Esta deliciosa galleta, crujiente por fuera y suave por dentro, costaba solo 1 euro con 50 céntimos. Los clientes de todas las edades venían a nuestro acogedor local en Barcelona, donde el aroma dulce los recibía, ansiosos por retirar su galleta favorita. Cada visita era una oportunidad de disfrutar la calidad y el cariño puestos en cada cookie. ¡Te esperamos en Monkey Cookies!</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Cookie brownie</h3>
+        <img class="tamaño-img" src="./imagenes/cookie.brownie.png" alt="Cookie brownie">
+        <p>En el mundo de Monkey Cookies, existía una irresistible cookie de brownie que deleitaba a todos. Elaborada con el cacao más puro, la mantequilla más rica y un toque de vainilla, cada mordisco era una explosión de sabor. Esta exquisita cookie, suave y densa, tenía un precio de solo 1 euro con 50 céntimos. Los amantes de las galletas acudían a nuestro encantador local en Barcelona, atraídos por el tentador aroma que emanaba del horno, deseosos de llevarse su dulce preferido. Cada visita era una celebración de la calidad y el esmero puestos en cada creación. ¡Te esperamos en Monkey Cookies!</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Cookie limon</h3>
+        <img class="tamaño-img" src="./imagenes/Cookie.limon.png" alt="Cookie limon">
+        <p>En Monkey Cookies, una especialidad que brilla con luz propia es nuestra cookie de limón. Hecha con limón fresco rallado, mantequilla de la más alta calidad y un toque de azúcar, cada mordisco ofrece una combinación perfecta de dulzura y acidez. Esta deliciosa galleta, que solo cuesta 1 euro con 50 céntimos, es una explosión de frescura. Los amantes de los sabores cítricos se acercan a nuestro acogedor local en Barcelona, guiados por el refrescante aroma, deseosos de retirar su galleta preferida. Cada visita destaca nuestro compromiso con la calidad y la dedicación en cada creación. ¡Te esperamos en Monkey Cookies!</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Cookie dulce de leche</h3>
+        <img class="tamaño-img" src="./imagenes/cookie.rellena.png" alt="Cookie rellena ddl">
+        <p>En Monkey Cookies, hay una delicia que conquista corazones: nuestra cookie rellena de dulce de leche. Hecha con una masa suave y dorada, y rellena con el más cremoso y auténtico dulce de leche, cada mordisco es una experiencia indulgente. Esta exquisita galleta, con un precio de 2 euros, es el placer perfecto para cualquier momento. Los clientes se acercan a nuestro cálido local en Barcelona, atraídos por el dulce aroma del caramelo, ansiosos por retirar su galleta favorita. Cada visita celebra nuestra dedicación a la calidad y al esmero en cada creación. ¡Te esperamos en Monkey Cookies!</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Cookie avellanas</h3>
+        <img class="tamaño-img" src="./imagenes/Cookie.avellana.png" alt="Cookie avellana">
+        <p>En Monkey Cookies, una de nuestras joyas es la cookie de avellanas, que encanta a todos con su sabor único. Hecha con las avellanas más frescas y trozos de chocolate oscuro, cada bocado ofrece una deliciosa combinación de crujiente y suave. Esta irresistible galleta, que cuesta solo 1 euro con 50 céntimos, es perfecta para cualquier ocasión. Los clientes acuden a nuestro acogedor local en Barcelona, guiados por el aroma tostado de las avellanas, ansiosos por retirar su galleta favorita. Cada visita refleja nuestra pasión por la calidad y el esmero en cada creación. ¡Te esperamos en Monkey Cookies!</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Cookie de Chocolate Blanco </h3>
+        <img class="tamaño-img" src="./imagenes/cookie-choco-ddl.png" alt="blanco y ddl">
+        <p>En Monkey Cookies, uno de nuestros verdaderos deleites es la cookie de chocolate blanco rellena de dulce de leche. Con una masa suave y dorada, hecha con el mejor chocolate blanco, y un centro irresistible de dulce de leche cremoso, cada mordisco es una experiencia lujosa y placentera. Esta delicia, que cuesta 2 euros, es el equilibrio perfecto entre la dulzura del chocolate y la intensidad del caramelo. ¡Te esperamos en Monkey Cookies!</p>
+      </div>
       <a href="#inicio">Volver al inicio</a>
     </div>
-
+   </div>
     <div>
           <h2 id="contact">Contacto</h2>
           <p>En Monkey Cookies, nos encanta estar en contacto con nuestros clientes y saber de sus experiencias con nuestras deliciosas galletas. Para ello, ponemos a tu disposición varias formas de comunicarte con nosotros. Si tienes alguna pregunta, sugerencia o simplemente quieres compartir tu amor por nuestras cookies, puedes enviarnos un correo electrónico a contacto@monkeycookies.com. Estamos siempre atentos y listos para responderte con la mayor rapidez posible.
@@ -92,14 +117,15 @@
           </p>
 
           <section>
-            <h4 id="final">Dejanos tu comentario.</h4>
+            <h2>Dejanos tu comentario.</h2>
+          <div class="form-container">
             <form action="https://formsubmit.co/pablo.romero.livio@gmail.com" method="POST">
               <input type="text" name="Nombre" id="Nombre" placeholder="ingrese su nombre">
-              <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellidp">
+              <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
               <input type="email" name="correo" id="correo" placeholder="ingrese su correo">
-              <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
+              <textarea name="comentarios" id="comentarios" cols="30" rows="5" placeholder="texto"></textarea>
               <input class="btn" type="submit" value="enviarnos">
-
+          </div>
               <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
 
               <input type="hidden" name="_captcha" value="false">
@@ -111,99 +137,197 @@
       
     </div>
 
-    <div>
-      <h2 id="galeria">Galeria</h2>
-      <div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/cheesecake-rojos-maracuya.png" alt="maracuya">
+
+
+  <div>
+    <h2 id="galeria">Galeria</h2>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagenes/cheesecake-rojos-maracuya.png" class="d-block w-50" alt="maracuya">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/cookie-brownie-limon.png" alt="brownie">
+        <div class="carousel-item">
+          <img src="./imagenes/cookie-brownie-limon.png" class="d-block w-50" alt="brownie">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/cookie-brownie-pistaccio.png" alt="brownie-pistaccio">
+        <div class="carousel-item">
+          <img src="./imagenes/cookie-brownie-pistaccio.png" class="d-block w-50" alt="brownie-pistaccio">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/cookie-limon-ddl.png" alt="limon-rellena">
+        <div class="carousel-item">
+          <img src="./imagenes/cookie-limon-ddl.png" class="d-block w-50" alt="limon-rellena">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/cookie-rojos.png" alt="frutos-rojos">
+        <div class="carousel-item">
+          <img src="../imagenes/cookie-rojos.png" class="d-block w-50" alt="frutos-rojos">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/cookie-cremapistaccio.png" alt="crema-pistaccio">
+        <div class="carousel-item">
+          <img src="./imagenes/cookie-cremapistaccio.png" class="d-block w-50" alt="crema-pistaccio">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/lemonpie.png" alt="limonpie">
+        <div class="carousel-item">
+          <img src="./imagenes/lemonpie.png" class="d-block w-50" alt="limonpie">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/torta-cheesecake-mango.png" alt="cheese-mango">
+        <div class="carousel-item">
+          <img src="./imagenes/torta-cheesecake-mango.png" class="d-block w-50" alt="cheese-mango">
         </div>
-        <div>
-          <img class="tamaño-img" src="./imagenes/torta-chocolate.png" alt="torta-choco">
+        <div class="carousel-item">
+          <img src="./imagenes/torta-chocolate.png" class="d-block w-50" alt="torta-choco">
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
+
 
     <div>
-      <h2 id="referencia">Referencias</h2>
+
+
       <div>
-        <div>
-          <p>María G.
-            "Desde que descubrí Monkey Cookies, no puedo dejar de venir. La atención es siempre amable y personalizada, y las cookies son simplemente las mejores que he probado. Mi favorita es la de limón, es fresca y deliciosa. Recomiendo a todos que pasen por aquí y prueben estas delicias. ¡Gracias por todo, equipo de Monkey Cookies!"</p>
+        <h2 id="referencia">Referencias</h2>
+      </div>
+
+      <div class="grid-container-galeria">
+
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-mujer.png" class="card-img-top" alt="icono mujer">
+            <div class="card-body">
+              <p class="card-text">María G.
+                "Desde que descubrí Monkey Cookies, no puedo dejar de venir. La atención es siempre amable y personalizada, y las cookies son simplemente las mejores que he probado. Mi favorita es la de limón, es fresca y deliciosa. Recomiendo a todos que pasen por aquí y prueben estas delicias. ¡Gracias por todo, equipo de Monkey Cookies!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Carlos R.
-            "Llevo a mis hijos a Monkey Cookies cada semana y siempre es una alegría. Les encantan las cookies rellenas de dulce de leche, y yo disfruto del ambiente acogedor y el servicio atento. La ubicación en el corazón de Barcelona es perfecta para nuestras salidas familiares. ¡Sin duda, las mejores galletas de la ciudad!"</p>
+
+
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-hombre.png" class="card-img-top" alt="icono hombre">
+            <div class="card-body">
+              <p class="card-text">Carlos R.
+                "Llevo a mis hijos a Monkey Cookies cada semana y siempre es una alegría. Les encantan las cookies rellenas de dulce de leche, y yo disfruto del ambiente acogedor y el servicio atento. La ubicación en el corazón de Barcelona es perfecta para nuestras salidas familiares. ¡Sin duda, las mejores galletas de la ciudad!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Lucía M.
-            "Soy fan de las galletas de avena y pasas, y las de Monkey Cookies son simplemente sublimes. Me encanta cómo cuidan cada detalle, desde la frescura de los ingredientes hasta la presentación. El personal es siempre tan amable y servicial. ¡No puedo esperar a mi próxima visita!"</p>
+
+
+
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-mujer.png" class="card-img-top" alt="icono mujer">
+            <div class="card-body">
+              <p class="card-text">Lucía M.
+                "Soy fan de las galletas de avena y pasas, y las de Monkey Cookies son simplemente sublimes. Me encanta cómo cuidan cada detalle, desde la frescura de los ingredientes hasta la presentación. El personal es siempre tan amable y servicial. ¡No puedo esperar a mi próxima visita!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Javier L.
-            "Trabajo cerca de Monkey Cookies y es mi lugar favorito para una pausa dulce. La cookie de brownie es increíble, rica y perfecta para recargar energías. La atención siempre es rápida y cordial, y el local es muy cómodo. ¡Un sitio que siempre recomiendo!"</p>
+
+
+
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-hombre.png" class="card-img-top" alt="icono hombre">
+            <div class="card-body">
+              <p class="card-text">Javier L.
+                "Trabajo cerca de Monkey Cookies y es mi lugar favorito para una pausa dulce. La cookie de brownie es increíble, rica y perfecta para recargar energías. La atención siempre es rápida y cordial, y el local es muy cómodo. ¡Un sitio que siempre recomiendo!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Elena S.
-            "Descubrí Monkey Cookies por recomendación de un amigo, y fue amor al primer bocado. La cookie de mantequilla de maní es mi perdición. Además, el equipo es siempre tan amable y atento. La ubicación es ideal y el ambiente muy acogedor. ¡Gracias por las mejores galletas!"</p>
+
+
+
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-mujer.png" class="card-img-top" alt="icono mujer">
+            <div class="card-body">
+              <p class="card-text">Elena S.
+                "Descubrí Monkey Cookies por recomendación de un amigo, y fue amor al primer bocado. La cookie de mantequilla de maní es mi perdición. Además, el equipo es siempre tan amable y atento. La ubicación es ideal y el ambiente muy acogedor. ¡Gracias por las mejores galletas!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Miguel T.
-            "Cada vez que paso por Barcelona, una parada obligatoria es Monkey Cookies. La variedad y calidad de las galletas es impresionante. Mi preferida es la de coco y chocolate blanco, ¡es como un trocito de paraíso! Además, la atención siempre es de primera. ¡Sigan así!"</p>
+
+
+
+
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-hombre.png" class="card-img-top" alt="icono hombre">
+            <div class="card-body">
+              <p class="card-text">Miguel T.
+                "Cada vez que paso por Barcelona, una parada obligatoria es Monkey Cookies. La variedad y calidad de las galletas es impresionante. Mi preferida es la de coco y chocolate blanco, ¡es como un trocito de paraíso! Además, la atención siempre es de primera. ¡Sigan así!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Sofía P.
-            "Llevé a mis amigas a Monkey Cookies y todas quedamos encantadas. El local es muy acogedor y el personal muy atento. Las cookies de chispas de chocolate fueron un éxito total. Es el lugar perfecto para reunirse y disfrutar de un momento dulce. ¡Gracias por todo!"</p>
+        
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-mujer.png" class="card-img-top" alt="icono mujer">
+            <div class="card-body">
+              <p class="card-text">Sofía P.
+                "Llevé a mis amigas a Monkey Cookies y todas quedamos encantadas. El local es muy acogedor y el personal muy atento. Las cookies de chispas de chocolate fueron un éxito total. Es el lugar perfecto para reunirse y disfrutar de un momento dulce. ¡Gracias por todo!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>David H.
-            "La primera vez que entré a Monkey Cookies, me sentí como en casa. El aroma a galletas recién horneadas es irresistible. La cookie de avellanas es mi favorita, crujiente y deliciosa. El personal es siempre tan amable y servicial. ¡Un lugar que recomiendo sin dudar!"</p>
+
+
+      
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-hombre.png" class="card-img-top" alt="icono hombre">
+            <div class="card-body">
+              <p class="card-text">David H.
+                "La primera vez que entré a Monkey Cookies, me sentí como en casa. El aroma a galletas recién horneadas es irresistible. La cookie de avellanas es mi favorita, crujiente y deliciosa. El personal es siempre tan amable y servicial. ¡Un lugar que recomiendo sin dudar!"</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Ana B.
-            "Monkey Cookies ha superado todas mis expectativas. La cookie de limón es simplemente perfecta, con un sabor fresco y equilibrado. La atención es siempre excelente y el ambiente muy acogedor. Me encanta venir aquí y disfrutar de estas delicias. ¡Gracias por ser tan geniales!"</p>
+
+
+
+        <div class="grid-card">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/icono-mujer.png" class="card-img-top" alt="icono mujer">
+            <div class="card-body">
+              <p class="card-text">Ana B.
+                "Monkey Cookies ha superado todas mis expectativas. La cookie de limón es simplemente perfecta, con un sabor fresco y equilibrado. La atención es siempre excelente y el ambiente muy acogedor. Me encanta venir aquí y disfrutar de estas delicias. ¡Gracias por ser tan geniales!"</p>
+            </div>
+          </div>
         </div>
+
+
+
+
       </div>
     </div>  
+
   </main>
 
   <footer>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d9503.268286118955!2d2.1495319813282787!3d41.38838351772078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m5!1s0x12a4a2859a64c21f%3A0x3c36af90ae7fb404!2sMercado%20del%20Ninot!3m2!1d41.387851399999995!2d2.1543196!4m0!5e0!3m2!1ses!2ses!4v1720989632061!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Preguntas Frecuentes</a></li>
-        <li><a href="#inicio">Sobre Nosotros</a></li>
-        <li><a href="#inicio">Blog</a></li>
-        <li><a href="#inicio">Términos y Condiciones</a></li>
-        <li><a href="#inicio">Política de Privacidad</a></li>
-        <li><a href="#inicio">Redes Sociales</a></li>
-        <li><a href="#inicio">Catering y Eventos</a></li>
-        <li><a href="#inicio">Testimonios</a></li>
-        <li><a href="#inicio">Trabaja con Nosotros</a></li>
-      </ul>
-    </nav>  
+    <div class="footer-container">  
+      <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d9503.268286118955!2d2.1495319813282787!3d41.38838351772078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m5!1s0x12a4a2859a64c21f%3A0x3c36af90ae7fb404!2sMercado%20del%20Ninot!3m2!1d41.387851399999995!2d2.1543196!4m0!5e0!3m2!1ses!2ses!4v1720989632061!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li><a href="#inicio">Preguntas Frecuentes</a></li>
+            <li><a href="#inicio">Sobre Nosotros</a></li>
+            <li><a href="#inicio">Blog</a></li>
+            <li><a href="#inicio">Términos y Condiciones</a></li>
+            <li><a href="#inicio">Política de Privacidad</a></li>
+            <li><a href="#inicio">Redes Sociales</a></li>
+            <li><a href="#inicio">Catering y Eventos</a></li>
+            <li><a href="#inicio">Testimonios</a></li>
+            <li><a href="#inicio">Trabaja con Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>  
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -4,6 +4,7 @@
   padding: 0;
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
+  max-width: 100%;
 }
 
 body {
@@ -12,21 +13,21 @@ body {
   background-repeat: round;
 }
 
-h1 {
+header h1 {
   font-size: 150px;
   color: yellowgreen;
   display: flex;
   justify-content: center;
 }
 
-h2 {
+div h2 {
   font-size: 100px;
   color:blueviolet;
   display: flex;
   justify-content: center;
 }
 
-h3 {
+div h3 {
   font-size: 50px;
   color: greenyellow;
   display: flex;
@@ -34,23 +35,90 @@ h3 {
 }
 
 .tamaño-img {
-  width: 30%;
+  width: 60%;
 }
 
-#final {
+#comentario {
 font-size: 50px;
 color: brown ;
 display: flex;
 justify-content: center;
 }
 
-main section p {
+/* main section p {
   color: burlywood;
   border: 2px;
   border-style: double;
   width: 100%;
-}
+} */
 
 .tamaño-logo {
   width: 20%;
+}
+
+.fondo-txt{
+  background-color: rgb(42, 39, 39);
+  color: rgb(116, 47, 116) ;
+  border: 1px solid greenyellow;
+}
+
+
+.carousel-inner {
+width: 20%;
+}
+
+
+.carousel-inner img {
+ margin: auto;
+}
+
+.tamaño-img-carousel {
+  width: 50%;
+}
+
+.d-block.w-100 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  }
+  
+
+.grid-container-galeria {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    min-width: auto;
+    align-items: center;
+  }
+
+.grid-card{
+  border: 1px solid black;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1364px) {
+  .grid-container-galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+  }
+}
+
+.mapa {
+  width:50%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
 }
